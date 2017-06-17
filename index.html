@@ -19,6 +19,7 @@
 <style type="text/css">
   body {
   padding-top: 300px;
+  background-color: #bbb;
 }
 .starter-template {
   padding: 40px 15px;
@@ -89,7 +90,18 @@
         
         $(document).on('keyup', 'body', function(ev){
           var active = $('#navbar li.active');
-          section = active.eq(Math.floor(Math.random() * (active.length))).data('value');
+          if(original_shown){
+            section = 'words';
+          }else{
+            print2('');
+            section = active.eq(Math.floor(Math.random() * (active.length))).data('value');
+          }
+          
+          console.log(
+            section,
+            original_shown
+          )
+
           if(section == 'numbers'){
             print(Math.floor(Math.random() * 100))
           }
@@ -110,7 +122,6 @@
             }else{
               original_shown = true;
               current_word = Math.floor(Math.random() * words.length);
-              print2('')
               if(Math.floor(Math.random() * 2) > 0){
                 print(words[current_word]['ru'])
                 current_lang = 1;
