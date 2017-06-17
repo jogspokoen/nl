@@ -1,0 +1,39 @@
+gezellig - уютный
+leuk - хороший
+lekker - вкусный
+aangenaam - приятный
+goed - хорошо
+dank je well - спасибо
+naam - имя
+nationaliteit - национальность
+stad - город
+dorp - деревня
+land - страна
+talenkennis - языки
+Ik heet - меня зовут
+Hoe heet jij? - как тебя зовут?
+gaat - идти
+niet - не
+zo - так
+avond - вечер
+middag - полдень
+morgen - утро
+dag - день
+nacht - ночь
+ik - я
+jij - вы
+hij - он
+zij - она
+wij - мы
+ontmoeten - встреча
+inderdaad - действительно
+
+hoe - кто
+waar - где
+welke - какой
+hoeveel - сколько
+wat - что
+wie - кого
+hoe - как
+wanneer - когда
+waroom - почему
