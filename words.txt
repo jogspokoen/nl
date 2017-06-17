@@ -37,3 +37,6 @@ wie - кого
 hoe - как
 wanneer - когда
 waroom - почему
+
+dit - это
+dat - то

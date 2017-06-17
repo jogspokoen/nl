@@ -25,7 +25,11 @@
   text-align: center;
 }
 #t {
-  font-size: 60px;
+  font-size: 80px;
+}
+#t2 {
+  font-size: 80px;
+  color: olive;
 }
 </style>
   </head>
@@ -55,7 +59,8 @@
 
     <div class="container">
 
-      <h1 class="text-center" id="t">Center aligned text.</h1>
+      <h1 class="text-center" id="t"></h1>
+      <h1 class="text-center" id="t2"></h1>
 
     </div><!-- /.container -->
 
@@ -68,8 +73,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript">
       var words = [];
+      var original_shown = false;
+      var current_word = 0;
+      var current_lang = 0;
       function print(t){
         $('#t').text(t)
+      }
+      function print2(t){
+        $('#t2').text(t)
       }
       $(document).ready(function(){
         $('#navbar a').on('click', function(){
@@ -89,10 +100,24 @@
             print(h.toString() + ':' + (m<2?'0':'') +(m * 5).toString());
           }
           if(section == 'words'){
-            if(Math.floor(Math.random() * 2) > 0){
-              print(words[Math.floor(Math.random() * words.length)]['ru'])
+            if(original_shown){
+              original_shown = false;
+              if(current_lang == 1){
+                print2(words[current_word]['nl']);
+              }else{
+                print2(words[current_word]['ru']);
+              }
             }else{
-              print(words[Math.floor(Math.random() * words.length)]['nl'])
+              original_shown = true;
+              current_word = Math.floor(Math.random() * words.length);
+              print2('')
+              if(Math.floor(Math.random() * 2) > 0){
+                print(words[current_word]['ru'])
+                current_lang = 1;
+              }else{
+                print(words[current_word]['nl'])
+                current_lang = 0;
+              }
             }
           }
         });
