@@ -12,7 +12,7 @@ land - страна
 talenkennis - языки
 Ik heet - меня зовут
 Hoe heet jij? - как тебя зовут?
-gaat - идти
+gaat/gaan - идти
 niet - не
 zo - так
 avond - вечер
@@ -42,3 +42,33 @@ dit - это
 dat - то
 
 zeg - скажи
+kleine - маленький
+kat - котик
+maken - делать(создавать)
+pakken - брать
+allen - все
+goedkoop - дешевый
+duur - дорогой
+vaak - часто
+straks - потом
+kort - короткий
+plaat - тарелка
+plat - квартира
+praten - говорить
+raar - странный, смешной
+voor - до
+lange- длинный
+meer - еще
+graag - пожалуйста
+ik wil - я хочу
+ik kan - я могу
+mag ik de ...(rekening) - можно мне ...(счет)
+mag ik betalen - можно мне заплатить
+heel - очень
+ik ben moe - я устал
+ik ben heel moe - я очень устал
+saai - скучный
+ik ben saai - мне скучно
+ik vind ... leuk - я люблю
+ik vind loopen in Haarlem leuk - я люблю гулять в Хаарлеме
+anders - другой, не такой
