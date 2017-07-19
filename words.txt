@@ -80,3 +80,46 @@ tot later - увидимся позже
 weet - знать
 dat week ik niet - я не знаю
 ik weet data niet - я не знаю
+
+straks - позже (или прямо)
+direct - прям щас
+even gauw - как только
+even kijken - посмотреть прямо щас, загянуть
+even in de ...(agenda) kijken - посмотрим в ...(расписание)
+tot gauw - до скорого
+mag ik ... bringen - можно я принесу ...
+ga je mee 
+heb je zin - хочешь ли ты
+heb je zin ik koeler meeneem - Хочешь я принесу вентилятор?
+dat lijkt me leuk - это вроде ок
+dat vind ik leuk - мне нра
+dat vind ik niet leuk - мне не нра
+zeker - конечно
+zullen we (вьо) - стоит ли нам (давай-ка мы)
+afgewerkt - окончен
+klaar - готов
+ga naar - идти дальше
+thuis - дом
+goed idee - хорошая идея
+elke dag - каждый день
+borrelen - бухать
+afspraak - встреча
+vlees - мясцо
+reden - причина
+trek - тянуть
+snorren - мурчать
+schreeuw - кричать
+spreken - говорить
+weer - опять, снова
+heet - горячий
+geef - давать
+deze - этот
+prettig - приятный
+
+rode - красный
+geel - желтый
+wit - белый
+zwart - черный
+groen - зеленый
+blauw - синий
+oranje - оранжевый
