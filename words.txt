@@ -115,6 +115,13 @@ heet - горячий
 geef - давать
 deze - этот
 prettig - приятный
+meestal - в основном
+doe maar - давай
+groenten - овощи
+vis - рыба
+jammer - все плохо
+dat is nou jammer - как жаль
+
 
 rode - красный
 geel - желтый
