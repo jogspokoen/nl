@@ -83,12 +83,7 @@
       function print2(t){
         $('#t2').text(t)
       }
-      $(document).ready(function(){
-        $('#navbar a').on('click', function(){
-          $(this).parent().toggleClass('active');
-        });
-        
-        $(document).on('keyup', 'body', function(ev){
+      function next_word(ev){
           var active = $('#navbar li.active');
           if(original_shown){
             section = 'words';
@@ -131,7 +126,14 @@
               }
             }
           }
+        }
+      $(document).ready(function(){
+        $('#navbar a').on('click', function(){
+          $(this).parent().toggleClass('active');
         });
+        
+        $(document).on('keyup', 'body', next_word);
+        $('div.container').on('click', next_word);
 
         $.ajax({
           url:'words.txt',
