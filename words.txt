@@ -115,7 +115,7 @@ heet - горячий
 geef - давать
 deze - этот
 prettig - приятный
-meestal - в основном
+ч - в основном
 doe maar - давай
 groenten - овощи
 vis - рыба
@@ -130,3 +130,14 @@ zwart - черный
 groen - зеленый
 blauw - синий
 oranje - оранжевый
+
+honger - голоден
+voel - чувствовать
+boos - злюсь
+kwaad - очень злюсь
+gestrest - стрессово
+ik voel me goed - я в порядке (чувствую себя ок)
+mooie - прекрасный
+schip - корабль
+boom - дерево
+heerlijk - вкуснейший
